@@ -1,0 +1,14 @@
+[project]
+name = "htmz"
+version = "0.0.1"
+description = "Web in pure Python."
+authors = [
+    { name = "Manasses Lima", email = "manasseslima@gmail.com" }
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+packages = ["htmz"]
